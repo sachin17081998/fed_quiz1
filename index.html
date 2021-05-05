@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            padding:0px;
+            margin:0px;
+        }
+        *{
+            box-sizing: border-box;
+        }
+        .header{
+            width:100%;
+            background-color:rgb(226, 44, 59);
+            height:10vh;
+            justify-content: center;
+            margin-top: -20px;
+        }
+        .second{
+            margin:10px;
+            margin-right: 10px;
+            height:20vh;
+            background-color: rgb(86, 185, 185);
+        }
+        .row{
+            display: flex;
+        }
+        #text{
+            font-size: 1.2rem;padding:10px;
+        
+        }
+        
+        .c1 {width: 8.33%;}
+        .c2 {width: 16.66%;}
+        .c3 {width: 25%;}
+        .c4 {width: 33.33%;}
+        .c5 {width: 41.66%;}
+        .c6 {width: 50%;}
+        .c7 {width: 58.33%;}
+        .c8 {width: 66.66%;}
+        .c9 {width: 75%;}
+        .c10 {width: 83.33%;}
+        .c11 {width: 91.66%;}
+        .c12 {width: 99%;}
+
+       
+        @media only screen and (max-width: 1023px) and (min-width: 768px)  {
+            body{
+             
+            }
+            .c4{
+                width:40%;
+                max-height:30vh ;
+            }
+            .c1,.c2,.c3,.c5,.c6,.c7,.c8,.c9,.c10,.c11,.c12{
+                width:100%;
+            }
+           
+        }
+        
+        @media only screen and (max-width: 767px) {
+            
+            body {
+                background-color:white;
+            }
+            .row{
+                display: block;
+            }
+          
+            .c1,.c2,.c3,.c4,.c5,.c6,.c7,.c8,.c9,.c10,.c11,.c12{
+                width:99%;
+            }
+            #text{
+                font-size: 2rem;
+
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+       <center> <h1>Header</h1></center>
+    </div>
+    <div class="second c12">
+        <h3 style="margin-left:2vw;">Menu</h3>
+        <ul>
+            <li>first</li>
+            <li>second</li>
+            <li>third</li>
+        </ul>
+    </div>
+
+    <div class="" >
+        <img  class="c4" style="float:left;height:200px;margin-left:10px;margin-right:10px;" src="https://spacenews.com/wp-content/uploads/2020/04/hls-starship-879x485.jpg" alt="">
+       
+       
+        <p id="text" >
+            Space Exploration Technologies Corp. (SpaceX) is an American aerospace manufacturer and space transportation services company headquartered in Hawthorne, California. It was founded in 2002 by Elon Musk with the goal of reducing space transportation costs to enable the colonization of Mars. SpaceX manufactures the Falcon 9 and Falcon Heavy launch vehicles, several rocket engines, Dragon cargo and crew spacecraft and Starlink satellites.
+    
+            SpaceX's achievements include the first privately funded liquid-propellant rocket to reach orbit (Falcon 1 in 2008), the first private company to successfully launch, orbit, and recover a spacecraft (Dragon in 2010), the first private company to send a spacecraft to the International Space Station (Dragon in 2012), the first vertical take-off and vertical propulsive landing for an orbital rocket (Falcon 9 in 2015), the first reuse of an orbital rocket (Falcon 9 in 2017), and the first private company to send astronauts to orbit and to the International Space Station (SpaceX Crew Dragon Demo-2 and SpaceX Crew-1 missions in 2020). SpaceX has flown and reflown the Falcon 9 series of rockets over one hundred times.
+            
+            SpaceX is developing a large internet satellite constellation named Starlink. In January 2020 the Starlink constellation became the largest satellite constellation in the world. SpaceX is also developing Starship, a privately funded super heavy-lift launch system for interplanetary spaceflight. Starship is intended to become the primary SpaceX orbital vehicle once operational, supplanting the existing Falcon 9, Falcon Heavy and Dragon fleet. Starship will be fully reusable and will have the highest payload capacity of any orbital rocket ever on its debut, scheduled for the early 2020s.</div>
+          
+       
+           </p>
+        
+    </div>
+    
+</body>
+</html>
